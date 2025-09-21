@@ -10,10 +10,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Datos del contenido para cada paso
     const contentSteps = [
-        { type: 'phrase', text: 'Flores Para Ti', music: 'music/primera.mp3' }, 
-        { type: 'phrase', text: 'En cada flor, una nota de amor.', music: 'music/cancion1.mp3' },
-        { type: 'phrase', text: 'Tu sonrisa es mi jardín favorito.', music: 'music/cancion2.mp3' },
-        { type: 'phrase', text: 'Contigo, el tiempo se detiene...', music: 'music/cancion3.mp3' },
+        { type: 'phrase', text: 'Flores Para Ti', music: 'primera.mp3' }, 
+        { type: 'phrase', text: 'En cada flor, una nota de amor.', music: 'cancion1.mp' },
+        { type: 'phrase', text: 'Tu sonrisa es mi jardín favorito.', music: 'cancion2.mp3' },
+        { type: 'phrase', text: 'Contigo, el tiempo se detiene...', music: 'cancion3.mp3' },
         { 
             type: 'letter', 
             text: `Mi amor eterno,
@@ -207,3 +207,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicia el proyecto
     initialiseProject();
 });
+
