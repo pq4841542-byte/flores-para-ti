@@ -8,24 +8,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const cometShowerContainer = document.getElementById('comet-shower');
     const headerContent = document.getElementById('header-content');
 
-    // Datos del contenido para cada paso
-    const contentSteps = [
-        { type: 'phrase', text: 'Flores Para Ti', music: 'primera.mp3' }, 
-        { type: 'phrase', text: 'En cada flor, una nota de amor.', music: 'cancion1.mp' },
-        { type: 'phrase', text: 'Tu sonrisa es mi jardín favorito.', music: 'cancion2.mp3' },
-        { type: 'phrase', text: 'Contigo, el tiempo se detiene...', music: 'cancion3.mp3' },
-        { 
-            type: 'letter', 
-            text: `Mi amor eterno,
-            <br><br>
-            Cada día a tu lado es un regalo, una aventura que supera cualquier sueño.
-            <br><br>
-            Eres el sol que ilumina mis mañanas y la luna que me acompaña en la noche.
-            <br><br>
-            Gracias por ser tú.`, 
-            music: 'music/cancion_final.mp3' 
-        }
-    ];
+   // ...
+const contentSteps = [
+    { type: 'phrase', text: 'Flores Para Ti', music: 'primera.mp3' },
+    { type: 'phrase', text: 'En cada flor, una nota de amor.', music: 'cancion1.mp3' },
+    { type: 'phrase', text: 'Tu sonrisa es mi jardín favorito.', music: 'cancion2.mp3' },
+    { type: 'phrase', text: 'Contigo, el tiempo se detiene...', music: 'cancion3.mp3' },
+    {
+        type: 'letter',
+        text: `Mi amor eterno,
+        <br><br>
+        Cada día a tu lado es un regalo, una aventura que supera cualquier sueño.
+        <br><br>
+        Eres el sol que ilumina mis mañanas y la luna que me acompaña en la noche.
+        <br><br>
+        Gracias por ser tú.`,
+        music: 'primera.mp3'
+    }
+];
+// ...
 
     let currentStep = 0;
     let clickEnabled = true;
@@ -207,4 +208,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Inicia el proyecto
     initialiseProject();
 });
+
 
